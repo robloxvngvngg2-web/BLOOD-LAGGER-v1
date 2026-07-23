@@ -7,7 +7,7 @@ local ContentProvider = game:GetService("ContentProvider")
 local RunService = game:GetService("RunService")
 
 local player = Players.LocalPlayer
-local ConfigFile = "bloodkeybind.json"
+local ConfigFile = "bloodkybind.json"
 
 local LOGO_ID = "rbxassetid://82646863372503"
 task.spawn(function() pcall(function() ContentProvider:PreloadAsync({LOGO_ID}) end) end)
